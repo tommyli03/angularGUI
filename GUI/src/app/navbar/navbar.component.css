@@ -1,0 +1,26 @@
+.purple-toolbar {
+    background: #620372; /* Purple color */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .flex-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  .toolbar-button {
+    background-color: orange;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .toolbar-button:hover {
+    background-color: darkorange;
+    color: #fff;
+  }
