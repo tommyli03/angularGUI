@@ -1,0 +1,23 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Light background color */
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for a lifted look */
+    width: 100%;
+    max-width: 600px; /* Restrict the maximum width */
+  }
+  
